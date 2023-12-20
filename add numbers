@@ -1,0 +1,7 @@
+n=int(input("enter number of numbers you want to add")
+i=0
+sum=0
+for i>n:
+   numb=int(input("enter a number"))
+   sum=sum+numb
+print(sum)
