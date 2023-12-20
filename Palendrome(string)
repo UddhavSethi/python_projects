@@ -1,0 +1,5 @@
+word=input("enter a word")
+if word[::-1]==word:
+    print("palendrome")
+else:
+    print("not a plaindrome")
