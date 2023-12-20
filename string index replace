@@ -1,0 +1,5 @@
+s=input("enter string:")
+f=int(input("enter first index:"))
+second=int(input("enter second index:"))
+y=s[:f]+s[second]+s[f+1:second]+s[f]+s[second+1:]
+print(y)
