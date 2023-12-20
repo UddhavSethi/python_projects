@@ -1,0 +1,9 @@
+import re
+S1="Python is a programming language"
+L1=re.findall("ng", S1)
+L2=re.findall('a', S1)
+L3=re.findall('PYTHON', S1)
+print(L1, L2, L3)
+
+
+
