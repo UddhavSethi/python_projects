@@ -1,0 +1,12 @@
+    
+import re
+S1="My name is srinivas"
+S2="Python Programming"
+L1=re.findall('vas$',S1)
+L2=re.findall('..me$', S1)
+L3=re.findall('ing$', S2)
+print(L1,'\n', L2,'\n',L3)
+if re.search('srinivas$', S1):
+    print("Yes")
+else:
+    print("No")
