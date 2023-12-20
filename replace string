@@ -1,0 +1,8 @@
+def replace(s) :
+    s = s.replace('a', 'z')
+    return s
+
+
+s = input("enter string:")
+print("modified string"+replace(s))
+
