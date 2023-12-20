@@ -1,0 +1,7 @@
+celsius=[]
+num=int(input('enter number of temp'))
+for n in range(num):
+    temp=int(input('enter temp in celsius'))
+    celsius.append(temp)
+fahrenheit=[temp*9/5 for temp in celsius]
+print(fahrenheit)
