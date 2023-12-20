@@ -1,0 +1,8 @@
+import re
+S1="My name is srinivas"
+L1=re.findall('sr.',S1)
+L2=re.findall('n..e', S1)
+print(L1,'\n', L2,'\n')
+if re.search('sri..', S1):
+    print("name exists")
+    
