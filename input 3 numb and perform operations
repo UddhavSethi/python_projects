@@ -1,0 +1,23 @@
+a=int(input())
+b=int(input())
+c=int(input())
+if a>b>c:
+    print(b-c)
+elif a>c>b:
+    print(c-b)
+elif b>a>c:
+    print(a-c)
+elif b>c>a:
+    print(c-a)
+elif c>b>a:
+    print(b-a)
+elif c>a>b:
+    print(a-b)
+if a==b and a==c:
+    print(a+b+c)
+if a!=b and b==c:
+    print(a+c)
+elif a==b and b!=c:
+    print(a+c)
+elif a==c and a!=b:
+    print(a+b)
