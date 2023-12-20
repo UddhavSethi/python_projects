@@ -1,0 +1,8 @@
+
+
+import re
+S1="Python is a programming language"
+L1=re.search("on", S1)
+L2=re.search('a', S1)
+L3=re.search('PYTHON', S1)
+print(L1,'\n', L2,'\n', L3)
